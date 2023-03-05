@@ -19,7 +19,7 @@ No need to install [CppFlow](https://github.com/serizba/cppflow) as it's already
 
 Run:
 ```bash
-g++ -std=c++17 -o main.out main.cpp -ltensorflow
+g++ -std=c++17 -o main.out main.cpp -ltensorflow -lopencv_core -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs  
 ```
 or
 ```bash
