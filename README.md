@@ -1,18 +1,18 @@
 # C++ Image Enhancing with Tensorflow using ESRGAN
 
-### Overview
+## Overview
 
 This mockup is based on [CppFlow](https://github.com/serizba/cppflow) that uses [Tensorflow C API](https://www.tensorflow.org/install/lang_c) to run pre-trained models from [Real-ESRGAN project](https://github.com/xinntao/Real-ESRGAN).
 
-### Prerequisites
+## Prerequisites
 
 Follow installation instructions here:
 - [CppFlow](https://github.com/serizba/cppflow)
 - [Tensorflow C API](https://www.tensorflow.org/install/lang_c)
 
-### How it works
+## How it works
 
-#### Build
+### Build
 
 Run:
 ```bash
@@ -23,7 +23,7 @@ or
 make build
 ```
 
-#### Models
+### Models
 
 Pre-trained models come from [Real-ESRGAN project](https://github.com/xinntao/Real-ESRGAN).
 Models are located in the `models/` directory. The project needs `.pb` file (Tensorflow models) in order to work.
