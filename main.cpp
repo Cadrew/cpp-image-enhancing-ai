@@ -18,6 +18,12 @@ int main() {
     auto output = model({{"serving_default_input_0:0", input}},{"StatefulPartitionedCall:0"});
 
     // Show the predicted class
-    std::cout << cppflow::arg_max(output, 1) << std::endl;
+    // std::cout << "Content of output:" << output[0] << std::endl;
+    std::cout << cppflow::arg_max(output[0], 1) << std::endl;
+
+    // Save it into an image    
+    std::vector<float> output_data = output[0].get_data<float>();
+    // TODO
+
     return 0;
 }
