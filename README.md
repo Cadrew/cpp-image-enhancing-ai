@@ -7,8 +7,11 @@ This mockup is based on [CppFlow](https://github.com/serizba/cppflow) that uses 
 ## Prerequisites
 
 Follow installation instructions here:
-- [CppFlow](https://github.com/serizba/cppflow)
 - [Tensorflow C API](https://www.tensorflow.org/install/lang_c)
+- [OpenCV](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html)
+
+
+No need to install [CppFlow](https://github.com/serizba/cppflow) as it's already integrated inside the project.
 
 ## How it works
 
