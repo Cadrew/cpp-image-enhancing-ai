@@ -26,6 +26,11 @@ or
 make build
 ```
 
+If some libs are not properly linked to the project, try to run:
+```
+sudo ldconfig -v
+```
+
 ### Models
 
 Pre-trained models come from [Real-ESRGAN project](https://github.com/xinntao/Real-ESRGAN).
